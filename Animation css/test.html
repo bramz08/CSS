@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+div {
+img src="image.jpeg"
+    width: 300px;
+    height: 400px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 10s;
+	animation-direction:alternate;
+	animation-iteration-count:infinite;
+}
+
+@keyframes example {
+0%{
+background-color:red;
+clip-path:circle(50% at 50% 50%);
+left:0px;
+top:0px;
+}
+
+25%{background-color:blue;
+clip-path:polygon(0 100%,50% 0, 100% 100%);
+left:0px;
+top:300px;}
+
+50%{
+background-color:green;
+left:300px;
+top:300px;
+clip-path:elipse(30% 20% at 50% 50%);
+}
+
+75%{
+background-color:yellow;
+clip-path: polygon(50% 20%, 70% 0, 100% 0, 100% 100%, 70% 100%, 50% 80%, 30% 100%, 0 100%, 0 0, 30% 0);
+left:300px;
+top:0px;}
+
+100%{
+background-color:red;
+clip-path: polygon(50% 20%, 70% 0, 100% 0, 100% 100%, 70% 100%, 50% 80%, 30% 100%, 0 100%, 0 0, 30% 0);
+left:0px;
+top:0px;}
+}
+</style>
+</head>
+<body>
+
+<div></div>
+
+</body>
+</html>
