@@ -1,0 +1,35 @@
+*{margin:0;
+padding:0;}
+
+Ul{list-style-type:none;
+border:solid;
+width:100px;
+ background-color: #333;
+}
+
+	
+nav>ul>li{display:block;
+position:relative;
+}
+
+ul ul {display:none;
+position:absolute;
+left:100%;
+color:white}
+
+ul li:hover >ul{display:block;
+position:absolute;}
+
+nav a{ display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+	
+li a:hover:not(.active) {
+    background-color: green;
+}
+
+.active {
+    background-color: red;
+}

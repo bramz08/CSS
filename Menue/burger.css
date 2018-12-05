@@ -1,0 +1,63 @@
+*{margin:0;
+padding:0;}
+
+Ul{list-style-type:none;
+border:solid;
+width:100px;
+ background-color: #333;
+}
+
+	
+nav>ul>li{display:block;
+position:relative;
+
+}
+
+ul ul {display:none;
+position:relative;
+color:white}
+
+ul li:hover ul{display:block;}
+
+nav a{ display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+	
+li a:hover:not(.active) {
+    background-color: green;
+}
+
+.active {
+    background-color: red;
+}
+#label
+{
+	display:none;
+	position:relative;
+}
+nav
+{
+	display:none;
+}
+#toto:checked + nav
+{
+	display:block;
+}
+#toto
+{
+	display:none;
+	width:2px;
+	height:5px;
+}
+
+.separation{
+	clear: both;
+	position: sticky;
+	margin-top :3px;
+	margin-left: px;
+	height: 5px;
+	width : 25px;
+	background: black;
+	}

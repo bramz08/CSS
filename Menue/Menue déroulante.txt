@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+<nav>
+<ul>
+<li>M1=<a href=....>M1</a></li>
+<li>M2
+<ul>
+<li>M2.1</li>
+<li>M2.2</li>
+<li>M2.3</li>
+</ul>
+</li>
+<li>M3</li>
+</ul>
+</body>
+</html>
